@@ -1,4 +1,3 @@
-// libraries
 import { ReactElement } from 'react';
 import classnames from 'classnames/bind';
 

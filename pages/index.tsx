@@ -4,6 +4,7 @@ import type { NextPage } from 'next';
 
 // customs
 import Header from '@views/layout/Header.layout';
+import Footer from '@views/layout/Footer.layout';
 
 // const cx = classnames.bind(styles);
 
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Header />
+			<Footer />
 		</div>
 	);
 };
