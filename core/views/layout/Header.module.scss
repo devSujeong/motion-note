@@ -1,0 +1,33 @@
+.gnb {
+  text-align: center;
+  background: #000;
+  padding: 30px 0 20px;
+}
+
+.title {
+  color: crimson;
+  margin-top: 0;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 -10px;
+  display: flex;
+  justify-content: center;
+
+  .nav-list-item {
+    width: 100px;
+    height: 40px;
+    background-color: crimson;
+    margin: 0 10px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .button {
+    background: transparent;
+    border: 0;
+  }
+}
