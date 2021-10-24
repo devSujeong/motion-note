@@ -1,17 +1,20 @@
-// libraries
 import type { NextPage } from 'next';
-// import classnames from 'classnames/bind';
+import classnames from 'classnames/bind';
 
-// customs
+import styles from './index.module.scss';
 import Header from '@views/layout/Header.layout';
 import Footer from '@views/layout/Footer.layout';
+import Main from '@views/layout/Main';
 
-// const cx = classnames.bind(styles);
+const cx = classnames.bind(styles);
 
 const Home: NextPage = () => {
 	return (
-		<div>
+		<div className={cx('wrap')}>
 			<Header />
+			<div className={cx('main')}>
+				<Main />
+			</div>
 			<Footer />
 		</div>
 	);
