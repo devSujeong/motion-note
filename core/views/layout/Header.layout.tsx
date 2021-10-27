@@ -4,7 +4,7 @@ import classnames from 'classnames/bind';
 import styles from './Header.module.scss';
 const cx = classnames.bind(styles);
 
-function Header(): ReactElement {
+function Header({handleNoteClick}): ReactElement {
 	return <header className={cx('gnb')}>
 		<h1 className={cx('title')}>MOTION</h1>
 		<nav>
@@ -16,7 +16,7 @@ function Header(): ReactElement {
 					<button className={cx('button')}>VIDEO</button>
 				</li>
 				<li className={cx('nav-list-item')}>
-					<button className={cx('button')}>NOTE</button>
+					<button className={cx('button')} onClick={handleNoteClick}>NOTE</button>
 				</li>
 				<li className={cx('nav-list-item')}>
 					<button className={cx('button')}>TASK</button>

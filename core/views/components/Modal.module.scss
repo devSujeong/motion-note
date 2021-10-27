@@ -1,0 +1,44 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 600px;
+  padding: 20px 10px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.btn-add {
+  display: flex;
+  margin-left: auto;
+  background: crimson;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: 0;
+}
+
+.btn-close {
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: crimson;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  display: flex;
+  margin-left: auto;
+}
+
+.row + .row {
+  margin-top: 20px;
+}
+.label {
+  display: block;
+  color: bisque;
+}
+.input {
+  width: 100%;
+}
